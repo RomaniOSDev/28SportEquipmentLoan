@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74FDC5D72F057ABA00304B0C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5AD2F057ABA00304B0C /* Contact.swift */; };
+		74FDC5D82F057ABA00304B0C /* EquipmentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5AE2F057ABA00304B0C /* EquipmentType.swift */; };
+		74FDC5D92F057ABA00304B0C /* ItemCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5AF2F057ABA00304B0C /* ItemCondition.swift */; };
+		74FDC5DA2F057ABA00304B0C /* LoanAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5B02F057ABA00304B0C /* LoanAction.swift */; };
+		74FDC5DB2F057ABA00304B0C /* LoanItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5B12F057ABA00304B0C /* LoanItem.swift */; };
+		74FDC5DC2F057ABA00304B0C /* LoanStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5B22F057ABA00304B0C /* LoanStatus.swift */; };
+		74FDC5DD2F057ABA00304B0C /* LoanType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5B32F057ABA00304B0C /* LoanType.swift */; };
+		74FDC5DE2F057ABA00304B0C /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5B42F057ABA00304B0C /* PaymentMethod.swift */; };
+		74FDC5DF2F057ABA00304B0C /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5B62F057ABA00304B0C /* Color+Hex.swift */; };
+		74FDC5E02F057ABA00304B0C /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5B82F057ABA00304B0C /* ContactViewModel.swift */; };
+		74FDC5E12F057ABA00304B0C /* LoanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5B92F057ABA00304B0C /* LoanViewModel.swift */; };
+		74FDC5E22F057ABA00304B0C /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5BA2F057ABA00304B0C /* OnboardingViewModel.swift */; };
+		74FDC5E32F057ABA00304B0C /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5BB2F057ABA00304B0C /* PaymentViewModel.swift */; };
+		74FDC5E42F057ABA00304B0C /* ReminderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5BC2F057ABA00304B0C /* ReminderViewModel.swift */; };
+		74FDC5E52F057ABA00304B0C /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5BE2F057ABA00304B0C /* CheckLink.swift */; };
+		74FDC5E62F057ABA00304B0C /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5BF2F057ABA00304B0C /* InternetViewController.swift */; };
+		74FDC5E72F057ABA00304B0C /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5C02F057ABA00304B0C /* LoaderViewController.swift */; };
+		74FDC5E82F057ABA00304B0C /* AddEditLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5C22F057ABA00304B0C /* AddEditLoanView.swift */; };
+		74FDC5E92F057ABA00304B0C /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5C32F057ABA00304B0C /* CalendarView.swift */; };
+		74FDC5EA2F057ABA00304B0C /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5C42F057ABA00304B0C /* ContactsView.swift */; };
+		74FDC5EB2F057ABA00304B0C /* LoanDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5C52F057ABA00304B0C /* LoanDetailView.swift */; };
+		74FDC5EC2F057ABA00304B0C /* LoanItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5C62F057ABA00304B0C /* LoanItemsView.swift */; };
+		74FDC5ED2F057ABA00304B0C /* MainDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5C72F057ABA00304B0C /* MainDashboardView.swift */; };
+		74FDC5EE2F057ABA00304B0C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5C82F057ABA00304B0C /* OnboardingView.swift */; };
+		74FDC5EF2F057ABA00304B0C /* PaymentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5C92F057ABA00304B0C /* PaymentsView.swift */; };
+		74FDC5F02F057ABA00304B0C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5CA2F057ABA00304B0C /* SettingsView.swift */; };
+		74FDC5F12F057ABA00304B0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5CC2F057ABA00304B0C /* AppDelegate.swift */; };
+		74FDC5F22F057ABA00304B0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5CE2F057ABA00304B0C /* ContentView.swift */; };
+		74FDC5F32F057ABA00304B0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5D42F057ABA00304B0C /* SceneDelegate.swift */; };
+		74FDC5F42F057ABA00304B0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74FDC5D52F057ABA00304B0C /* ViewController.swift */; };
+		74FDC5F52F057ABA00304B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74FDC5CD2F057ABA00304B0C /* Assets.xcassets */; };
+		74FDC5F72F057ABA00304B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FDC5D12F057ABA00304B0C /* LaunchScreen.storyboard */; };
+		74FDC5F82F057ABA00304B0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74FDC5D32F057ABA00304B0C /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		356E542D0297DF1357120052 /* Pods-28SportEquipmentLoan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-28SportEquipmentLoan.release.xcconfig"; path = "Target Support Files/Pods-28SportEquipmentLoan/Pods-28SportEquipmentLoan.release.xcconfig"; sourceTree = "<group>"; };
+		7489F8DE2EF13A1100C31C0B /* 28SportEquipmentLoan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 28SportEquipmentLoan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74FDC5AD2F057ABA00304B0C /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		74FDC5AE2F057ABA00304B0C /* EquipmentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentType.swift; sourceTree = "<group>"; };
+		74FDC5AF2F057ABA00304B0C /* ItemCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCondition.swift; sourceTree = "<group>"; };
+		74FDC5B02F057ABA00304B0C /* LoanAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanAction.swift; sourceTree = "<group>"; };
+		74FDC5B12F057ABA00304B0C /* LoanItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanItem.swift; sourceTree = "<group>"; };
+		74FDC5B22F057ABA00304B0C /* LoanStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanStatus.swift; sourceTree = "<group>"; };
+		74FDC5B32F057ABA00304B0C /* LoanType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanType.swift; sourceTree = "<group>"; };
+		74FDC5B42F057ABA00304B0C /* PaymentMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		74FDC5B62F057ABA00304B0C /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		74FDC5B82F057ABA00304B0C /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		74FDC5B92F057ABA00304B0C /* LoanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanViewModel.swift; sourceTree = "<group>"; };
+		74FDC5BA2F057ABA00304B0C /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		74FDC5BB2F057ABA00304B0C /* PaymentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
+		74FDC5BC2F057ABA00304B0C /* ReminderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewModel.swift; sourceTree = "<group>"; };
+		74FDC5BE2F057ABA00304B0C /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		74FDC5BF2F057ABA00304B0C /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		74FDC5C02F057ABA00304B0C /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		74FDC5C22F057ABA00304B0C /* AddEditLoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditLoanView.swift; sourceTree = "<group>"; };
+		74FDC5C32F057ABA00304B0C /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		74FDC5C42F057ABA00304B0C /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		74FDC5C52F057ABA00304B0C /* LoanDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanDetailView.swift; sourceTree = "<group>"; };
+		74FDC5C62F057ABA00304B0C /* LoanItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanItemsView.swift; sourceTree = "<group>"; };
+		74FDC5C72F057ABA00304B0C /* MainDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboardView.swift; sourceTree = "<group>"; };
+		74FDC5C82F057ABA00304B0C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		74FDC5C92F057ABA00304B0C /* PaymentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsView.swift; sourceTree = "<group>"; };
+		74FDC5CA2F057ABA00304B0C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		74FDC5CC2F057ABA00304B0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74FDC5CD2F057ABA00304B0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74FDC5CE2F057ABA00304B0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74FDC5CF2F057ABA00304B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74FDC5D02F057ABA00304B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74FDC5D22F057ABA00304B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74FDC5D42F057ABA00304B0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74FDC5D52F057ABA00304B0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A6FE3DEAB1BE3B52DB437A43 /* Pods_28SportEquipmentLoan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_28SportEquipmentLoan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFFB0D73B62B23EB467E8979 /* Pods-28SportEquipmentLoan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-28SportEquipmentLoan.debug.xcconfig"; path = "Target Support Files/Pods-28SportEquipmentLoan/Pods-28SportEquipmentLoan.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7489F8DB2EF13A1100C31C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7489F8D52EF13A1100C31C0B = {
+			isa = PBXGroup;
+			children = (
+				74FDC5D62F057ABA00304B0C /* 28SportEquipmentLoan */,
+				7489F8DF2EF13A1100C31C0B /* Products */,
+				7F8F9138309EC7A24A9889FE /* Pods */,
+				AB557A9005650D14D0D7A7F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7489F8DF2EF13A1100C31C0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7489F8DE2EF13A1100C31C0B /* 28SportEquipmentLoan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74FDC5B52F057ABA00304B0C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74FDC5AD2F057ABA00304B0C /* Contact.swift */,
+				74FDC5AE2F057ABA00304B0C /* EquipmentType.swift */,
+				74FDC5AF2F057ABA00304B0C /* ItemCondition.swift */,
+				74FDC5B02F057ABA00304B0C /* LoanAction.swift */,
+				74FDC5B12F057ABA00304B0C /* LoanItem.swift */,
+				74FDC5B22F057ABA00304B0C /* LoanStatus.swift */,
+				74FDC5B32F057ABA00304B0C /* LoanType.swift */,
+				74FDC5B42F057ABA00304B0C /* PaymentMethod.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74FDC5B72F057ABA00304B0C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				74FDC5B62F057ABA00304B0C /* Color+Hex.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		74FDC5BD2F057ABA00304B0C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				74FDC5B82F057ABA00304B0C /* ContactViewModel.swift */,
+				74FDC5B92F057ABA00304B0C /* LoanViewModel.swift */,
+				74FDC5BA2F057ABA00304B0C /* OnboardingViewModel.swift */,
+				74FDC5BB2F057ABA00304B0C /* PaymentViewModel.swift */,
+				74FDC5BC2F057ABA00304B0C /* ReminderViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		74FDC5C12F057ABA00304B0C /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				74FDC5BE2F057ABA00304B0C /* CheckLink.swift */,
+				74FDC5BF2F057ABA00304B0C /* InternetViewController.swift */,
+				74FDC5C02F057ABA00304B0C /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		74FDC5CB2F057ABA00304B0C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74FDC5C12F057ABA00304B0C /* LoadingView */,
+				74FDC5C22F057ABA00304B0C /* AddEditLoanView.swift */,
+				74FDC5C32F057ABA00304B0C /* CalendarView.swift */,
+				74FDC5C42F057ABA00304B0C /* ContactsView.swift */,
+				74FDC5C52F057ABA00304B0C /* LoanDetailView.swift */,
+				74FDC5C62F057ABA00304B0C /* LoanItemsView.swift */,
+				74FDC5C72F057ABA00304B0C /* MainDashboardView.swift */,
+				74FDC5C82F057ABA00304B0C /* OnboardingView.swift */,
+				74FDC5C92F057ABA00304B0C /* PaymentsView.swift */,
+				74FDC5CA2F057ABA00304B0C /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		74FDC5D62F057ABA00304B0C /* 28SportEquipmentLoan */ = {
+			isa = PBXGroup;
+			children = (
+				74FDC5B52F057ABA00304B0C /* Models */,
+				74FDC5B72F057ABA00304B0C /* Utils */,
+				74FDC5BD2F057ABA00304B0C /* ViewModels */,
+				74FDC5CB2F057ABA00304B0C /* Views */,
+				74FDC5CC2F057ABA00304B0C /* AppDelegate.swift */,
+				74FDC5CD2F057ABA00304B0C /* Assets.xcassets */,
+				74FDC5CE2F057ABA00304B0C /* ContentView.swift */,
+				74FDC5CF2F057ABA00304B0C /* Info.plist */,
+				74FDC5D12F057ABA00304B0C /* LaunchScreen.storyboard */,
+				74FDC5D32F057ABA00304B0C /* Main.storyboard */,
+				74FDC5D42F057ABA00304B0C /* SceneDelegate.swift */,
+				74FDC5D52F057ABA00304B0C /* ViewController.swift */,
+			);
+			path = 28SportEquipmentLoan;
+			sourceTree = "<group>";
+		};
+		7F8F9138309EC7A24A9889FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFFB0D73B62B23EB467E8979 /* Pods-28SportEquipmentLoan.debug.xcconfig */,
+				356E542D0297DF1357120052 /* Pods-28SportEquipmentLoan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB557A9005650D14D0D7A7F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6FE3DEAB1BE3B52DB437A43 /* Pods_28SportEquipmentLoan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7489F8DD2EF13A1100C31C0B /* 28SportEquipmentLoan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7489F8F12EF13A1200C31C0B /* Build configuration list for PBXNativeTarget "28SportEquipmentLoan" */;
+			buildPhases = (
+				3B7E5BC99606877F0E3477CD /* [CP] Check Pods Manifest.lock */,
+				7489F8DA2EF13A1100C31C0B /* Sources */,
+				7489F8DB2EF13A1100C31C0B /* Frameworks */,
+				7489F8DC2EF13A1100C31C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 28SportEquipmentLoan;
+			productName = 28SportEquipmentLoan;
+			productReference = 7489F8DE2EF13A1100C31C0B /* 28SportEquipmentLoan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7489F8D62EF13A1100C31C0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					7489F8DD2EF13A1100C31C0B = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = 7489F8D92EF13A1100C31C0B /* Build configuration list for PBXProject "28SportEquipmentLoan" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7489F8D52EF13A1100C31C0B;
+			productRefGroup = 7489F8DF2EF13A1100C31C0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7489F8DD2EF13A1100C31C0B /* 28SportEquipmentLoan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7489F8DC2EF13A1100C31C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FDC5F52F057ABA00304B0C /* Assets.xcassets in Resources */,
+				74FDC5F72F057ABA00304B0C /* LaunchScreen.storyboard in Resources */,
+				74FDC5F82F057ABA00304B0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B7E5BC99606877F0E3477CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-28SportEquipmentLoan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7489F8DA2EF13A1100C31C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FDC5D72F057ABA00304B0C /* Contact.swift in Sources */,
+				74FDC5D82F057ABA00304B0C /* EquipmentType.swift in Sources */,
+				74FDC5D92F057ABA00304B0C /* ItemCondition.swift in Sources */,
+				74FDC5DA2F057ABA00304B0C /* LoanAction.swift in Sources */,
+				74FDC5DB2F057ABA00304B0C /* LoanItem.swift in Sources */,
+				74FDC5DC2F057ABA00304B0C /* LoanStatus.swift in Sources */,
+				74FDC5DD2F057ABA00304B0C /* LoanType.swift in Sources */,
+				74FDC5DE2F057ABA00304B0C /* PaymentMethod.swift in Sources */,
+				74FDC5DF2F057ABA00304B0C /* Color+Hex.swift in Sources */,
+				74FDC5E02F057ABA00304B0C /* ContactViewModel.swift in Sources */,
+				74FDC5E12F057ABA00304B0C /* LoanViewModel.swift in Sources */,
+				74FDC5E22F057ABA00304B0C /* OnboardingViewModel.swift in Sources */,
+				74FDC5E32F057ABA00304B0C /* PaymentViewModel.swift in Sources */,
+				74FDC5E42F057ABA00304B0C /* ReminderViewModel.swift in Sources */,
+				74FDC5E52F057ABA00304B0C /* CheckLink.swift in Sources */,
+				74FDC5E62F057ABA00304B0C /* InternetViewController.swift in Sources */,
+				74FDC5E72F057ABA00304B0C /* LoaderViewController.swift in Sources */,
+				74FDC5E82F057ABA00304B0C /* AddEditLoanView.swift in Sources */,
+				74FDC5E92F057ABA00304B0C /* CalendarView.swift in Sources */,
+				74FDC5EA2F057ABA00304B0C /* ContactsView.swift in Sources */,
+				74FDC5EB2F057ABA00304B0C /* LoanDetailView.swift in Sources */,
+				74FDC5EC2F057ABA00304B0C /* LoanItemsView.swift in Sources */,
+				74FDC5ED2F057ABA00304B0C /* MainDashboardView.swift in Sources */,
+				74FDC5EE2F057ABA00304B0C /* OnboardingView.swift in Sources */,
+				74FDC5EF2F057ABA00304B0C /* PaymentsView.swift in Sources */,
+				74FDC5F02F057ABA00304B0C /* SettingsView.swift in Sources */,
+				74FDC5F12F057ABA00304B0C /* AppDelegate.swift in Sources */,
+				74FDC5F22F057ABA00304B0C /* ContentView.swift in Sources */,
+				74FDC5F32F057ABA00304B0C /* SceneDelegate.swift in Sources */,
+				74FDC5F42F057ABA00304B0C /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74FDC5D12F057ABA00304B0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74FDC5D02F057ABA00304B0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74FDC5D32F057ABA00304B0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74FDC5D22F057ABA00304B0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7489F8F22EF13A1200C31C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFFB0D73B62B23EB467E8979 /* Pods-28SportEquipmentLoan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 28SportEquipmentLoan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "XSport: EquipmentLoan";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yas.xsp0rtl0n;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7489F8F32EF13A1200C31C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356E542D0297DF1357120052 /* Pods-28SportEquipmentLoan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 28SportEquipmentLoan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "XSport: EquipmentLoan";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yas.xsp0rtl0n;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7489F8F42EF13A1200C31C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7489F8F52EF13A1200C31C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7489F8D92EF13A1100C31C0B /* Build configuration list for PBXProject "28SportEquipmentLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7489F8F42EF13A1200C31C0B /* Debug */,
+				7489F8F52EF13A1200C31C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7489F8F12EF13A1200C31C0B /* Build configuration list for PBXNativeTarget "28SportEquipmentLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7489F8F22EF13A1200C31C0B /* Debug */,
+				7489F8F32EF13A1200C31C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7489F8D62EF13A1100C31C0B /* Project object */;
+}
